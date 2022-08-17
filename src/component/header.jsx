@@ -95,9 +95,8 @@ const Header = () => {
                   typewriter
 
                     .typeString("Full Stack Developer")
-
-                     autoStart: true,
-                     deleteSpeed: 50,
+                      .pauseFor(1000)
+                     .start();
                 }}
               />
             </h4>
