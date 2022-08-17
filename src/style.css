@@ -1,0 +1,393 @@
+.nav-right{
+    
+    color: red;
+}
+
+.res{
+    background-color: red;
+}
+
+.navbar-nav:hover{
+    cursor:pointer;
+}
+
+.main-heading{
+    background-color: darkgreen;
+   
+}
+.nav-bar-color{
+    color: #FCA738;
+opacity: 1;
+}
+.header-name{
+    font: normal normal bold 35px/44px Inter;
+    letter-spacing: 0px;
+    color: #105652;
+    opacity: 1;
+}
+h2{
+    display: inline-block;
+    position: relative;
+    /* Move the element to the right by 50% of the container's width */
+    left: 50%; 
+    /* Calculates 50% of the element's width, and moves it by that */ 
+    /* amount across the X-axis to the left */
+    transform: translateX(-50%);
+    font: normal normal bold 35px/44px Inter;
+    letter-spacing: 0px;
+    color: #105652;
+    opacity: 1;
+    border-bottom: 3px solid #FCA738;;
+}
+
+/* main */
+
+.container-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+  
+   
+}
+.main-text{
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.name{
+    text-align: left;
+font: normal normal medium 40px/44px Inter;
+letter-spacing: 0px;
+color: #FCA738;
+opacity: 1;
+}
+.job{
+font: normal normal bold 40px/44px Inter;
+letter-spacing: 0px;
+color: #FBF3E4;
+opacity: 1;
+}
+.quote{
+    font: normal normal 300 18px/44px Inter;
+letter-spacing: 0px;
+color: #FBF3E4;
+opacity: 1;
+}
+.hireMe{
+    background: #09BEAD 0% 0% no-repeat padding-box;
+box-shadow: 0px 16px 29px #0BBEAD69;
+border-radius: 8px;
+opacity: 0.99;
+}
+
+.Resumebtn{
+    background: #FCA738 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 28px #F57F1769;
+    border-radius: 8px;
+    opacity: 1;
+}
+.bannerguy{
+    
+    width: 27em;
+    height: 26.3em;
+    
+   
+}
+
+/* aboutme */
+.AboutMe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 59px #10565221;
+    border-radius: 20px;
+    opacity: 1;
+}
+.aboutmeguy{
+    width: 20em;
+    height: 22em;
+}
+.aboutme-content p{
+    text-align: left;
+    font: normal normal normal 16px/21px Inter;
+    letter-spacing: 0px;
+    color: #105652;
+    opacity: 1;
+}
+.icon{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+/* box-shadow: 0px 0px 30px #00000029; */
+/* border-radius: 20px; */
+font-size: 2em;
+
+opacity: 1;
+}
+
+
+/* skill */
+
+.skillguy{
+    width: 20em;
+    height: 23.8em;
+    margin-left: 2em;
+}
+
+
+.card-width{
+    width: 90%;
+    position: relative;
+    top: 1em;
+    left: 3em;
+
+}
+/* portfolio  */
+
+.portfolio-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-img img {
+    width: 15em;
+    height: 8em;
+    margin: 1em;
+}
+
+
+.card-header{
+    
+    top: 2em;
+}
+
+
+
+
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* what people say aboyt me section */
+
+.comment-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 32px #0404043D;
+    border-radius: 10px;
+    opacity: 1;
+    
+    
+  
+  
+    
+}
+
+.comment-section{
+
+    width: 12em;
+    
+;
+   
+}
+.comment-section img{
+    width: 8em;
+    height: 8em;
+    border-radius: 4em;
+}
+.comment-section h5{
+    
+    font: normal normal medium 20px/24px Inter;
+    letter-spacing: 0px;
+    color: #373742;
+    opacity: 1;
+}
+.comment-section h6{
+    
+    font: normal normal normal 16px/20px Inter;
+    letter-spacing: 0px;
+    color: #7B7B88;
+    opacity: 1;
+}
+.comment-section p{
+   
+    font: normal normal 300 15px/28px Inter;
+    letter-spacing: 0px;
+    color: #4F4F53;
+    opacity: 1;
+}
+
+/* ul li:first-child:before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 35px;
+    background-image: url('https://thumbs.dreamstime.com/b/light-blue-background-abstract-42521993.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+  } */
+
+/* contact */
+
+.content-card h4{
+    text-align: left;
+font: normal normal bold 26px/31px Inter;
+letter-spacing: 0px;
+color: #105652;
+opacity: 1;
+}
+.content-card p {
+    text-align: left;
+    font: normal normal normal 15px/22px Inter;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;}
+  li {
+    list-style: none;
+    padding: 10px 30px;
+   
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    text-align: left;
+    font: normal normal normal 14px/17px Inter;
+    letter-spacing: 0px;
+    color: #858585;
+    opacity: 1;
+}
+.form-label{
+    background: #FBF3E4 0% 0% no-repeat padding-box;
+border-radius: 0px 10px 10px 0px;
+opacity: 1;
+}
+.form-label label{
+    text-align: left;
+font: normal normal normal 13px/16px Inter;
+letter-spacing: 0px;
+opacity: 1;
+}
+
+
+
+#Email{
+    background-image: url(
+        "./Image/email.svg");
+}
+#Phone-No{
+    background-image: url(
+        "./Image/phone\ \(1\).svg");
+}
+#Location{
+    background-image: url(
+        "./Image/marker.svg");
+}
+
+.btn-bd-primary{
+    --bs-btn-color: var(--bs-orange);
+}
+
+.Messagebtn{
+    background: #FCA738 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+}
+
+.copyright{
+    height: 2em;
+    display: flex;
+    align-items: center;
+    background: #FBF3E4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    justify-content: center;
+    font: normal normal normal 18px/21px Inter;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+@media (max-width:600px) {
+    .container-main{
+       grid-template-columns: 1fr;
+    }
+    .bannerguy{
+        width: 30em;
+    }
+    .AboutMe{
+       grid-template-columns: 1fr;
+    }
+    .aboutmeguy{
+       width: 30em;
+       margin-left: 3em;
+    }
+    .aboutme-item1{
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    h2{
+        display: inline-block;
+        text-align: left;
+        left: 0%;
+        transform: translateX(0%);
+    }
+    .Portfolio{
+        display: none;
+    }
+    .portfolio-img{
+       display: none;
+       grid-template-columns: 1fr;
+      
+       
+    }
+    .portfolio-img img {
+        justify-content: center;
+        width: 20em;
+        margin-left: 3em;
+    }
+    .skillguy{
+        width: 25em;
+    }
+    .comment-header{
+       flex-direction: column;
+       align-items: center;
+    }
+    .comment-section{
+       align-items: center;
+       text-align: center;
+    }
+    .comment-section img{
+        width: 10em;
+        height: 10em;
+        border-radius: 5em;
+     }
+    .comment-hidden{
+        display: none;
+    }
+    .comment-section h5{
+    
+        font: normal normal medium 25px/30px Inter;
+        letter-spacing: 0px;
+        color: #373742;
+        opacity: 1;
+    }
+    .comment-section h6{
+        
+        font: normal normal normal 20px/20px Inter;
+        letter-spacing: 0px;
+        color: #7B7B88;
+        opacity: 1;
+    }
+    .comment-section p{
+      text-align: center;
+        font: normal normal 300 20px/20px Inter;
+        letter-spacing: 0px;
+        color: #4F4F53;
+        opacity: 1;
+    }
+    .card-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+

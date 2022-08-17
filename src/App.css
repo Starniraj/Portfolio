@@ -1,0 +1,16 @@
+
+@media (max-width:600px) {
+  .App{
+    width: 100%;
+    position: relative;
+    left: 0%;
+  }
+}
+@media (min-width: 1366px) {
+  .App {
+    background-color: azure;
+    width: 80%;
+    position: relative;
+    left: 7em;
+  }
+}
