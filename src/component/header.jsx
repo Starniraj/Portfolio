@@ -97,7 +97,6 @@ const Header = () => {
                     .typeString("Full Stack Developer")
 
                      autoStart: true,
-                     loop: 1000,
                      deleteSpeed: 50,
                 }}
               />
