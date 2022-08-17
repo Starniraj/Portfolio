@@ -230,38 +230,38 @@ const Header = () => {
         <div className="comment-header">
           <div className="comment-section">
             <img
-              src="https://qph.cf2.quoracdn.net/main-thumb-222988278-200-sfnekwupgqjwukcpdnwbmlsksmpvrfuz.jpeg"
+              src="http://sdfsystems.com/things-to-discuss-with-your-web-developer-before-you-start/"
               alt=""
             />
-            <h5>Raj Kumar</h5>
-            <h6>React Developer</h6>
+            <h5>Deepak Singh</h5>
+            <h6>Sr. Software Engineer</h6>
             <p>
-              top coders of the country. She has mentored thousands of students
-              at PrepBytes and has motivated them to think big and achieve big.{" "}
+              He is a Sr.Software Engineer in accennture from last 6 years. Lead some major projects for accenture and
+              he guide me very well in coding part.{" "}
             </p>
           </div>
           <div className="comment-section comment-hidden">
             <img
-              src="https://i.pinimg.com/736x/48/35/b5/4835b5f9c52fd733eb26fb2c2b47bdc7.jpg"
+              src="http://sdfsystems.com/things-to-discuss-with-your-web-developer-before-you-start/"
               alt=""
             />
-            <h5>Fasna Ashiq</h5>
+            <h5>Yash Mangalni</h5>
             <h6>BackEnd Developer</h6>
             <p>
               He is a Competitive Programmer with some achievements like 5 stars
-              at Codechef and a Specialist at Codeforces.
+              at TCS and a Specialist at TCS.
             </p>
           </div>
           <div className="comment-section comment-hidden">
             <img
-              src="http://indiafa.org/wp-content/uploads/2017/11/Bhattacharya_Ayan_pic.jpg"
+              src="http://sdfsystems.com/things-to-discuss-with-your-web-developer-before-you-start/"
               alt=""
             />
-            <h5>Rahul Dev</h5>
+            <h5>Sudhanshu Mishra </h5>
             <h6>FullStack Developer</h6>
             <p>
               {" "}
-              important part of personal and professional development,guides
+              He is working in infosys from last 1 year important part of personal and professional development,guides
               through times when people need someone that is able to point them
               in the right direction.{" "}
             </p>
@@ -348,7 +348,7 @@ const Header = () => {
       <br />
       <div className="copyright">
         {" "}
-        <Icon />© 2022 Niraj Singh . All rights reserved.
+        <Icon />Develop and Design By Niraj.
       </div>
     </>
   );
