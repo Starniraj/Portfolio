@@ -96,9 +96,9 @@ const Header = () => {
 
                     .typeString("Full Stack Developer")
 
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .start();
+                     autoStart: true,
+                     loop: true,
+                     deleteSpeed: 50,
                 }}
               />
             </h4>
