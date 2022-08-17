@@ -1,6 +1,5 @@
-
-@media (max-width:600px) {
-  .App{
+@media (max-width: 600px) {
+  .App {
     width: 100%;
     position: relative;
     left: 0%;
